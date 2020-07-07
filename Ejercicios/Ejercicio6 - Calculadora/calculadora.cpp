@@ -3,7 +3,10 @@
 using namespace std;
 
 int main(int argc, char const *argv[])
-{
+{   
+
+    //Ejercicio6 - Calculadora
+
     //Variables para las operaciones
     int a = 0;
     int b = 0;
@@ -16,9 +19,7 @@ int main(int argc, char const *argv[])
     cout << "Ingrese un valor para a: ";
     cin >> a;
 
-    cout << endl;
-
-    cout << "Ingrese un valor para b (distinto de 0): ";
+    cout << "Ingrese un valor para b (debe ser distinto de 0 para realizar una division): ";
     cin >> b;
 
     cout << endl;
@@ -30,7 +31,7 @@ int main(int argc, char const *argv[])
 
     multiplicacion = a * b; //operacion de multiplicacion
 
-    division = a / b; //operacion de division (b debe ser distinto de 0);
+    division = a / b; //operacion de division (b debe ser distinto de 0);    
 
     //Salida de la informacion o datos procesados
     cout << "La suma de a + b es: " << suma << endl;
