@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main (int argr, char const *args[])
+int main (int argc, char const *argv[])
 {
     int numero = 0;
     int numerosecreto = 7;
