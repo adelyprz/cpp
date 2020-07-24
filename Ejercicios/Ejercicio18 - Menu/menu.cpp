@@ -16,7 +16,7 @@ int main(int argc, char const *argv[])
 
         cout << "1 - Cafe y Granitas" << endl;
         cout << "2 - Reposteria" << endl;
-        cout << "3 - Salir" << endl;
+        cout << "0 - Salir" << endl;
 
         cout << "Ingrese una opcion del menu: ";
         cin >> opcion;
