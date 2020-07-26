@@ -77,6 +77,7 @@ int main() {
  
         
         while (true) {
+        //Se deben cumplir 10 iteraciones o ciclos dentro de la condición contrasena == "neo"
         while (hack <= 10){
             int i = 0;    
             
@@ -108,11 +109,11 @@ int main() {
 
  
             ciclos++;
-            //cout << endl << ciclos << endl;
             hack++;
                
         }
         if (hack = 10){
+            cout << endl;
             cout << endl << "*** EL SISTEMA FALLO ***";//Mensaje de error
             system("COLOR 04");
             return 0;
