@@ -1,1 +1,1 @@
-int dadosArrojados(int a, int b);
+void dadosArrojados(int a, int b);
